@@ -1,1 +1,83 @@
-/* место для вашего кода */
+.header{
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 92px 50px 91px 50px;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+
+.header__link {
+    text-decoration: underline;
+}
+
+.header__logo {
+    display: block;
+}
+
+.header__logo-image {
+    width: 129.11px;
+    height: 104.65px;
+}
+
+.no-bullit {
+    list-style-type: none;
+}
+
+.address {
+    max-width: 240px;
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.header-one {
+    position: absolute;
+    font-size: 100px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 3;
+}
+
+.overlay {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5)
+    z-index: 2;
+}
+
+.image-with-lotus {
+    width: 100%
+    height: 757px;
+    z-index: 1;
+}
+
+.substitution {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+    word-spacing: 25px;
+    z-index: 3;
+}
+
+.grid-lots {
+    display: grid;
+    grid-template-columns: (1fr, 1fr, 1fr);
+}
+
+.image-size {
+    width: 334px;
+    height: 596px;
+}
+
