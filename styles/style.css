@@ -1,4 +1,4 @@
-.header{
+.header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -209,7 +209,6 @@
     grid-template-columns: 1fr 2fr;
     column-gap: 25px;
     margin-top: 150px;                     
-
 }
 
 .about-auction {
