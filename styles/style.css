@@ -50,7 +50,7 @@
     text-underline-offset: 3px;
 }
 
-.header-one {
+.header-main {
     font-size: 100px;
     font-weight: 700;
     letter-spacing: 0.3em;
@@ -78,20 +78,20 @@
     padding: 165px 50px 50px 50px;
 }
 
-.word-ono {
+.word-top {
     display: block;
     text-align: left;
     z-index: 3;
 }
 
-.word-tebe {
+.word-middle {
     display: block;
     text-align: center;
     padding-top: 20px;
     padding-left: 30px;
 }
 
-.word-nado {
+.word-bottom {
     display: block;
     text-align: right;
     padding-top: 20px;
@@ -151,25 +151,16 @@
     color: #000;
 }
 
-.lot-one {
+.lot-right {
     background-image: url('../images/card-lot-01.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.lot-two {
+.lot-middle {
     background-image: url('../images/card-lot-02.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.lot-three {
+.lot-left {
     background-image: url('../images/card-lot-03.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .flex-lots {
@@ -196,6 +187,9 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 48px 40px 48px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card-title {
@@ -281,13 +275,11 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    min-height: 180px;
     margin-top: 160px;
-    padding: 0 50px;
+    padding: 0px 50px 82px 50px;
 }
 
 .footer__address {
-    min-height: 98px;
     width: 264px;
 }
 
